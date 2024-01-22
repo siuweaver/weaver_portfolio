@@ -1,23 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Ryan Weaver Repository </title>
-</head>
-<body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Ryan Weaver - Data Science Portfolio</title>
+
     <!-- Internal Styles -->
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
+            color: #495057;
         }
 
-        #about-me-container {
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #main-content {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
@@ -27,33 +47,65 @@
         }
 
         h1, h2 {
-            color: #333;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #666;
+            color: #007bff;
         }
 
         strong {
             font-weight: bold;
-            color: #0088cc;
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #495057;
+        }
+
+        #projects-list a {
+            display: block;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        #contacts {
+            margin-top: 20px;
+        }
+
+        #contacts a {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
         }
     </style>
 </head>
 <body>
 
-<!-- Main Content Container -->
-<div id="about-me-container">
+<!-- Header Section -->
+<header>
+    <h1>Ryan Weaver - Data Science Portfolio</h1>
+</header>
 
-    <!-- Introduction Section -->
-    <section id="introduction">
-        <h1>About Me</h1>
+<!-- Navigation Section -->
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#journey">Data Science Journey</a>
+    <a href="#education">Education</a>
+    <a href="#career">Career Goals</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#projects">Work/Projects</a>
+    <a href="#contacts">Contacts</a>
+</nav>
+
+<!-- Main Content Container -->
+<div id="main-content">
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
         <p>Greetings! I'm <strong>Ryan Weaver</strong>, a seasoned Lead Business Intelligence Analyst with a keen focus on call center analytics. My expertise lies in leveraging SQL, data analysis, business intelligence, forecasting, scheduling, and reporting solutions to drive actionable insights.</p>
     </section>
 
     <!-- Data Science Journey Section -->
-    <section id="data-science-journey">
+    <section id="journey">
         <h2>Data Science Journey</h2>
         <p>The spark for my journey into data science ignited during my collaboration with data scientists at Mutual of Omaha. Witnessing their transformative capabilities left me inspired, prompting me to explore how data science could enhance my role.</p>
     </section>
@@ -65,7 +117,7 @@
     </section>
 
     <!-- Career Goals Section -->
-    <section id="career-goals">
+    <section id="career">
         <h2>Career Goals</h2>
         <p>Currently, I lead a dynamic team, and my career goal is to elevate our analytics maturity from Diagnostic (Why did it happen) to Predictive (What will happen) on the analytics maturity model. I thrive on the challenge of pushing the boundaries of what data can reveal and contributing to strategic decision-making.</p>
     </section>
@@ -75,16 +127,26 @@
         <h2>Hobbies</h2>
         <p>Beyond the world of data, you'll find me immersed in diverse interests. Cycling, board games, pickleball, kayaking, and disc golf are my go-to activities outside of the analytics realm. These hobbies not only recharge me but also contribute to my well-rounded perspective.</p>
     </section>
+
+    <!-- Work/Projects Section -->
     <section id="projects">
         <h2>Work/Projects</h2>
-        <p>this is the projects section</p>
+        <div id="projects-list">
+            <a href="https://github.com/siuweaver/weaver_portfolio/tree/main/Handle%20Time%20Analysis" target="_blank">Handle Time Analysis</a>
+            <a href="https://github.com/siuweaver/weaver_portfolio/tree/main/Pet%20Adoption%20Import" target="_blank">Pet Adoption Import</a>
+            <a href="https://github.com/siuweaver/weaver_portfolio/tree/main/Predicting%20Length%20of%20Stay%20for%20Dogs%20in%20Austin%20Animal%20Center" target="_blank">Predicting Length of Stay for Dogs in Austin Animal Center</a>
+            <a href="https://github.com/siuweaver/weaver_portfolio/tree/main/Weather%20Application" target="_blank">Weather Application</a>
+        </div>
     </section>
-    <section id="Conacts">
+
+    <!-- Contacts Section -->
+    <section id="contacts">
         <h2>Contacts</h2>
-		<p>ryanweaver171@yahoo.com</p>
-		<p>https://github.com/siuweaver/weaver_portfolio</p>
-        <p>https://www.linkedin.com/in/ryan-weaver-b2423b24/</p>
+        <p>Email: <a href="mailto:ryanweaver171@yahoo.com">ryanweaver171@yahoo.com</a></p>
+        <p>GitHub: <a href="https://github.com/siuweaver/weaver_portfolio" target="_blank">siuweaver/weaver_portfolio</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ryan-weaver-b2423b24/" target="_blank">Ryan Weaver on LinkedIn</a></p>
     </section>
+
 </div>
 
 </body>
